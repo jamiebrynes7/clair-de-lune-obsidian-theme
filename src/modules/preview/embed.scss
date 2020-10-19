@@ -1,0 +1,22 @@
+@import "../../colors.scss";
+
+.markdown-preview-view {
+  .markdown-embed {
+    border: 1px solid rgba($indigo, 0.25);
+    margin: 0;
+  }
+
+  .markdown-embed .markdown-preview-view {
+    padding: 15px 20px;
+  }
+
+  .markdown-embed-link {
+    top: 8px;
+    right: 8px;
+    color: $indigo;
+
+    &:hover {
+      color: $cyan;
+    }
+  }
+}

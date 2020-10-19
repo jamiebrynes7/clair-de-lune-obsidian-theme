@@ -1,0 +1,26 @@
+@import "../../colors.scss";
+
+.graph-view {
+  &.color-line {
+    color: $indigo;
+  }
+
+  &.color-fill {
+    color: $blue;
+  }
+
+  &.color-circle {
+  }
+
+  &.color-text {
+    color: rgba($text-primary, 0.8);
+  }
+
+  &.color-fill-highlight {
+    color: $dark-blue;
+  }
+
+  &.color-line-hightlight {
+    color: $green;
+  }
+}

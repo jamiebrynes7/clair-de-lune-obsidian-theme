@@ -1,0 +1,9 @@
+@import "../../colors.scss";
+
+.tooltip {
+  background-color: $gray-1;
+}
+
+.tooltip .tooltip-arrow {
+  border-color: $gray-1 !important;
+}

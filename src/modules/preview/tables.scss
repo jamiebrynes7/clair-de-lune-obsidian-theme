@@ -1,0 +1,25 @@
+@import "../../colors.scss";
+
+.markdown-preview-view {
+  table {
+    border: 3px solid $gray-6;
+  }
+
+  thead {
+    border-bottom: 3px solid $gray-6;
+    color: $indigo;
+  }
+
+  tbody {
+    color: $text-paragraph;
+  }
+
+  th {
+    background-color: $gray-3;
+  }
+
+  tr td:not(:last-child),
+  tr th:not(:last-child) {
+    border-right: 1px solid $gray-5;
+  }
+}

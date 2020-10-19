@@ -1,0 +1,37 @@
+@import "../../colors.scss";
+
+.view-header {
+  background-color: $gray-3;
+  border-bottom: 1px solid $gray-1;
+
+  .view-actions {
+    background-color: $gray-3;
+  }
+
+  .view-header-title,
+  .view-action {
+    color: rgba($text-gray, 0.75);
+  }
+}
+
+.workspace-leaf.mod-active .view-header {
+  background-color: $gray-4;
+  color: $text-light;
+  border-bottom: 1px solid $green;
+
+  .view-action {
+    color: $text-light;
+  }
+
+  .view-actions {
+    background-color: $gray-4;
+  }
+}
+
+.view-header-icon {
+  color: rgba($gray-6, 0.5);
+
+  &:hover {
+    color: $gray-7;
+  }
+}

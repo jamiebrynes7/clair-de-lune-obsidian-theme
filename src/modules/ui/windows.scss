@@ -1,0 +1,46 @@
+@import "../../colors.scss";
+
+.workspace-split,
+.workspace-ribbon,
+.workspace-ribbon.mod-left.is-collapsed {
+  border-right: 1px solid $gray-2;
+}
+
+.workspace-ribbon.mod-right.is-collapsed {
+  border-left: none;
+}
+
+.status-bar {
+  border-top: 1px solid $gray-2;
+}
+
+.status-bar,
+.workspace-ribbon,
+.workspace-ribbon.is-collapsed,
+.workspace-split.mod-left-split .workspace-tabs,
+.workspace-split.mod-left-split .workspace-tabs .workspace-leaf,
+.workspace-split.mod-right-split .workspace-tabs .workspace-leaf,
+.workspace-leaf-resize-handle,
+.workspace-tab-header-container,
+.workspace-tab-header.is-before-active,
+.workspace-tab-header.is-before-active .workspace-tab-header-inner,
+.workspace-tab-header.is-active,
+.workspace-tab-header.is-active .workspace-tab-header-inner,
+.workspace-tab-header.is-after-active .workspace-tab-header-inner,
+.workspace-tab-header.is-after-active {
+  background-color: $gray-3;
+}
+
+.workspace-tab-container-before,
+.workspace-tab-container-after {
+  display: none;
+}
+
+.workspace-tab-header.is-active {
+  border-top: 1px solid $blue;
+  color: $blue;
+}
+
+.workspace-split .workspace-tabs:not(:first-child) {
+  border-top: 1px solid $gray-2;
+}

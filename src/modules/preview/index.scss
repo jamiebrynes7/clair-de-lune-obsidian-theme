@@ -1,0 +1,22 @@
+@import "./blockquotes.scss";
+@import "./checkboxes.scss";
+@import "./code.scss";
+@import "./embed.scss";
+@import "./headings.scss";
+@import "./links.scss";
+@import "./lists.scss";
+@import "./tables.scss";
+
+@import "../../colors.scss";
+
+.markdown-preview-view {
+  color: $text-paragraph;
+
+  hr {
+    color: $gray-6;
+  }
+
+  del {
+    color: $indigo;
+  }
+}

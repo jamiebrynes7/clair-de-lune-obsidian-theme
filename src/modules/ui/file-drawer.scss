@@ -1,0 +1,28 @@
+@import "../../colors.scss";
+
+.mod-root > .nav-folder-title {
+  display: none;
+}
+
+.nav-file.is-active .nav-file-title {
+  background-color: $gray-6;
+}
+
+body:not(.is-grabbing) .nav-file-title:hover,
+body:not(.is-grabbing) .nav-folder-title:hover {
+  background-color: $gray-5;
+}
+
+.nav-folder-collapse-indicator {
+  background-color: unset !important;
+}
+
+.nav-folder-children > .nav-file,
+.nav-folder-children > .nav-folder {
+  border-left: 1px solid $gray-5;
+}
+
+.mod-root > .nav-folder-children > .nav-file,
+.mod-root > .nav-folder-children > .nav-folder {
+  border-left: none;
+}

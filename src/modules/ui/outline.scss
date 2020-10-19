@@ -1,0 +1,9 @@
+@import "../../colors.scss";
+
+.collapsible-item-self.is-clickable:hover {
+  background-color: $gray-5;
+}
+
+.collapsible-item-children {
+  border-left: 1px solid $gray-5;
+}

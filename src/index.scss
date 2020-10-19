@@ -1,0 +1,56 @@
+@import "./colors.scss";
+
+:root {
+  --default-font: "Inter", sans-serif;
+  --font-monospace: "Jetbrains Mono", monospace;
+}
+
+.theme-dark {
+  --background-code: #{$gray-4};
+  --background-code-preview: #{$gray-4};
+  --background-preview: #{$gray-4};
+  --background-primary: #{$gray-4};
+  --background-primary-alt: #{$gray-4};
+  --background-secondary: #{$gray-4};
+  --background-secondary-alt: #{$gray-4};
+
+  --background-tag: #{$gray-1};
+  --background-quick: #{$gray-2};
+
+  --background-modifier-cover: rgba(0, 0, 0, 0.8);
+  --background-modifier-border: #{$gray-3};
+  --background-modifier-form-field: #{$gray-5};
+  --background-modifier-form-field-highlighted: #{$gray-6};
+
+  --interactive-accent: #{$gray-6};
+  --interactive-accent-rgb: 134, 225, 252; // RGB version of $cyan.
+  --interactive-accent-hover: #{$gray-7};
+
+  --menu-selection: #{$gray-6};
+  --menu-selection-text: #{$text-light};
+
+  --scrollbar-bg: inherit;
+  --scrollbar-thumb-bg: #{$gray-5};
+  --scrollbar-active-thumb-bg: #{$gray-6};
+
+  --table-line: #{$text-dark};
+
+  --text-accent: #{$aqua};
+  --text-accent-hover: #{rgba($aqua, 0.8)};
+  --text-faint: $text-dark;
+  --text-highlight-bg: #{rgba($pink, 0.2)};
+  --text-muted: #{$text-gray};
+  --text-normal: #{$text-primary};
+  --text-on-accent: #{$text-light};
+  --text-selection: #{rgba($pink, 0.2)};
+  --text-tag: #{$indigo};
+
+  --file-hr: #{$gray-8};
+  --leaf-handle: #{$gray-8};
+}
+
+@import "./modules/editor/index.scss";
+@import "./modules/preview/index.scss";
+@import "./modules/ui/index.scss";
+
+@import "./modules/extensions/todoist.scss";

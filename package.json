@@ -1,0 +1,20 @@
+{
+  "name": "moonlight-obsidian-theme",
+  "version": "1.0.0",
+  "description": "An Obsidian.md theme based on the Moonlight theme family.",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src/index.scss ./build/obsidian.css",
+    "build:andy": "sass src/andy-mode.scss ./build/obsidian-andy.css",
+    "lint:fix": "prettier -w ./src",
+    "lint:check": "prettier -c ./src"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.26.10"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  }
+}

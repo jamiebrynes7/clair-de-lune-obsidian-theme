@@ -1,0 +1,73 @@
+@import "../../colors.scss";
+
+.cm-s-obsidian {
+  font-family: var(--font-monospace);
+  color: $text-paragraph;
+  font-size: 11pt;
+  line-height: 1.5em;
+
+  .CodeMirror-linenumber {
+    color: rgba($indigo, 0.5);
+    font-size: medium;
+  }
+
+  .CodeMirror-gutter-elt {
+    width: 25px !important;
+  }
+
+  .cm-formatting {
+    color: $indigo !important;
+  }
+
+  .cm-header {
+    color: $yellow;
+  }
+
+  .cm-header-1,
+  .cm-header-2,
+  .cm-header-3,
+  .cm-header-4,
+  .cm-header-5,
+  .cm-header-6 {
+    font-size: 11pt;
+    line-height: 1.5em;
+  }
+
+  .cm-formatting-link,
+  .cm-link {
+    color: $blue !important;
+  }
+
+  .cm-formatting-link-string,
+  .cm-url {
+    color: $orange !important;
+  }
+
+  span.cm-hmd-internal-link {
+    color: $green !important;
+  }
+
+  .cm-em,
+  .cm-strong {
+    color: $light-red;
+  }
+
+  span.cm-inline-code {
+    color: $cyan;
+  }
+
+  pre.HyperMD-codeblock {
+    line-height: 1.5em;
+    font-size: 11pt;
+  }
+
+  span.cm-hmd-codeblock,
+  span.cm-hmd-indented-code {
+    color: $purple;
+  }
+
+  .cm-quote {
+    color: $text-gray !important;
+    font-style: italic;
+  }
+}

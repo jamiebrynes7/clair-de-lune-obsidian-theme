@@ -1,0 +1,125 @@
+@import "../../colors.scss";
+
+.todoist-query-title {
+  display: inline;
+}
+
+.todoist-refresh-button {
+  display: inline;
+  float: right;
+  margin-left: 8px;
+  padding: 3px 10px;
+  background-color: $gray-5;
+
+  &:hover {
+    background-color: $gray-6;
+  }
+}
+
+.todoist-refresh-spin {
+  animation: spin 1s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+.markdown-preview-view ul > li.task-list-item {
+  .todoist-p1 > input[type="checkbox"] {
+    border: 1px solid $red !important;
+    background-color: rgba($red, 0.25) !important;
+
+    &:hover {
+      background-color: rgba($red, 0.5) !important;
+    }
+  }
+
+  .todoist-p2 > input[type="checkbox"] {
+    border: 1px solid $yellow !important;
+    background-color: rgba($yellow, 0.25) !important;
+
+    &:hover {
+      background-color: rgba($yellow, 0.5) !important;
+    }
+  }
+
+  .todoist-p3 > input[type="checkbox"] {
+    border: 1px solid $sky-blue !important;
+    background-color: rgba($sky-blue, 0.25) !important;
+
+    &:hover {
+      background-color: rgba($sky-blue, 0.5) !important;
+    }
+  }
+
+  .todoist-p4 > input[type="checkbox"] {
+    border: 1px solid $gray-9 !important;
+    background-color: rgba($gray-9, 0.25) !important;
+
+    &:hover {
+      background-color: rgba($gray-9, 0.5) !important;
+    }
+  }
+}
+
+.task-metadata {
+  margin-left: 30px;
+  font-size: small;
+  color: $indigo;
+}
+
+.task-metadata > * {
+  margin-right: 30px;
+}
+
+.task-date.task-overdue {
+  color: rgba($light-red, 0.75);
+}
+
+.task-calendar-icon,
+.task-project-icon,
+.task-labels-icon {
+  vertical-align: middle;
+  height: 17px;
+  width: 17px;
+}
+
+.todoist-project .todoist-project {
+  margin-left: 20px;
+}
+
+.todoist-section {
+  margin-left: 20px;
+}
+
+.todoist-project .todoist-project-title {
+  font-weight: 700;
+  margin-block-end: 0px;
+}
+
+.todoist-section .todoist-section-title {
+  font-size: 11pt;
+  color: $indigo;
+  font-weight: 700;
+  margin-block-end: 0px;
+}
+
+.todoist-error {
+  border: 1px solid $light-red;
+  background-color: rgba($light-red, 0.05);
+  padding: 1em 1em;
+  margin: 1em 0px;
+
+  p {
+    margin: 0 0 1em 0;
+    font-weight: 600;
+  }
+
+  code {
+    background-color: unset !important;
+    padding: unset !important;
+    margin: unset !important;
+  }
+}

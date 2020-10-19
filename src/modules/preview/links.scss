@@ -1,0 +1,31 @@
+@import "../../colors.scss";
+
+.markdown-preview-view {
+  a {
+    color: $blue;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &.external-link {
+      background-image: none;
+      background-size: 0px;
+      padding-right: 0px;
+    }
+
+    &.internal-link {
+      text-decoration: none;
+      color: $green;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    &.tag {
+      color: $indigo;
+    }
+  }
+}
