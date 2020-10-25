@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### ✨ Features
+
+- Added support for some Mermaid diagrams (flowchart, sequence, gantt, class).
+
 ### 🐛 Bugfixes
 
 - Fixed an issue where checkboxes were occasionally not rendered correctly.
