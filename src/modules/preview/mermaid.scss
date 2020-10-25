@@ -1,0 +1,124 @@
+@import "../../colors.scss";
+
+.node rect,
+.node circle,
+.node ellipse,
+.node path,
+.node polygon,
+rect.actor,
+.labelBox {
+  fill: $gray-5 !important;
+  stroke: $gray-6 !important;
+}
+
+text.actor {
+  color: $text-primary;
+}
+
+.loopLine {
+  stroke: $gray-6 !important;
+}
+
+rect.note {
+  fill: rgba($yellow, 0.3) !important;
+  stroke: rgba($yellow, 0.75) !important;
+}
+
+.section0,
+.section2 {
+  fill: $gray-4 !important;
+  opacity: 1 !important;
+}
+
+.section1,
+.section3 {
+  fill: $gray-5 !important;
+  opacity: 1 !important;
+}
+
+.task0,
+.task1,
+.task2,
+.task3 {
+  fill: $gray-2 !important;
+  stroke: $gray-2 !important;
+}
+
+.done0,
+.done1,
+.done2,
+.done3 {
+  fill: rgba($green, 0.1) !important;
+  stroke: rgba($green, 0.75) !important;
+}
+
+.active0,
+.active1,
+.active2,
+.active3 {
+  fill: rgba($yellow, 0.1) !important;
+  stroke: rgba($yellow, 0.75) !important;
+}
+
+.doneCrit0,
+.doneCrit1,
+.doneCrit2,
+.doneCrit3 {
+  fill: rgba($light-red, 0.05) !important;
+  stroke: rgba($light-red, 0.25) !important;
+  shape-rendering: unset !important;
+}
+
+.activeCrit0,
+.activeCrit1,
+.activeCrit2,
+.activeCrit3 {
+  fill: rgba($red, 0.1) !important;
+  stroke: rgba($red, 0.75) !important;
+}
+
+.crit0,
+.crit1,
+.crit2,
+.crit3 {
+  fill: rgba($orange, 0.1) !important;
+  stroke: rgba($orange, 0.75) !important;
+}
+
+.classGroup {
+  rect,
+  line {
+    fill: $gray-5 !important;
+    stroke: $gray-6 !important;
+  }
+}
+
+path.relation {
+  stroke: $gray-6 !important;
+}
+
+.classLabel {
+  rect {
+    fill: rgba(0, 0, 0, 0) !important;
+  }
+
+  text {
+    fill: $text-primary !important;
+  }
+}
+
+#extensionStart,
+#compositionStart,
+#aggregationStart,
+#dependencyStart,
+#extensionEnd,
+#compositionEnd,
+#aggregationEnd,
+#dependencyEnd {
+  fill: $gray-6 !important;
+}
+
+.commit {
+  fill: rgba($yellow, 0.25) !important;
+  stroke: rgba($yellow, 0.75) !important;
+}
