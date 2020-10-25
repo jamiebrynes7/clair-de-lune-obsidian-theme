@@ -1,0 +1,10 @@
+@import "../../colors.scss";
+
+button.mod-warning {
+  background-color: $light-red;
+  color: $gray-2;
+
+  &:hover {
+    background-color: $red;
+  }
+}
