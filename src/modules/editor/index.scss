@@ -54,6 +54,7 @@
 
   span.cm-inline-code {
     color: $cyan;
+    font-size: inherit;
   }
 
   pre.HyperMD-codeblock {
@@ -62,7 +63,8 @@
   }
 
   span.cm-hmd-codeblock,
-  span.cm-hmd-indented-code {
+  span.cm-hmd-indented-code,
+  span.cm-math {
     color: $purple;
   }
 
@@ -70,4 +72,21 @@
     color: $text-gray !important;
     font-style: italic;
   }
+}
+
+.cm-s-obsidian .hmd-fold-html-stub,
+.cm-s-obsidian .hmd-fold-code-stub,
+.cm-s-obsidian.CodeMirror .HyperMD-hover > .HyperMD-hover-content code,
+.cm-s-obsidian .cm-formatting-hashtag,
+.cm-s-obsidian .cm-inline-code,
+.cm-s-obsidian .HyperMD-codeblock,
+.cm-s-obsidian .HyperMD-hr,
+.cm-s-obsidian .cm-hmd-frontmatter,
+.cm-s-obsidian .cm-hmd-orgmode-markup,
+.cm-s-obsidian .cm-formatting-code,
+.cm-s-obsidian .cm-math,
+.cm-s-obsidian span.hmd-fold-math-placeholder,
+.cm-s-obsidian .CodeMirror-linewidget kbd,
+.cm-s-obsidian .hmd-fold-html kbd {
+  font-family: var(--font-monospace);
 }
