@@ -3,6 +3,7 @@
 .markdown-preview-view ul > li.task-list-item {
   input[type="checkbox"] {
     appearance: none;
+    -webkit-appearance: none;
     border-radius: 50%;
     border: 1px solid $gray-1 !important;
     background-color: $gray-7 !important;
