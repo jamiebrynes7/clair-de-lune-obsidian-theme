@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Fixed an issue where `hr` elements were not styled correctly in preview mode.
 - Fixed an issue where code & inline code-like elements had the wrong font & sizing in editor mode.
 - Fixed an issue where LaTeX math elements where styled incorrectly in editor mode.
+- Fixed an issue where the delete buttons were not styled correctly.
 
 ## [1.0.0] - 2020-10-19
 
