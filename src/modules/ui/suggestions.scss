@@ -1,0 +1,32 @@
+@import "../../colors.scss";
+
+.suggestion-container {
+  background-color: $gray-3;
+  border: 1px solid $gray-1;
+
+  .suggestion {
+    max-height: 450px;
+
+    .suggestion-item {
+      padding: 8px 10px;
+      font-size: 14px;
+      margin-right: 2px;
+
+      .suggestion-content {
+        .suggestion-heading-level {
+          background-color: $gray-1;
+          color: rgba($yellow, 0.7);
+        }
+      }
+
+      &.is-selected {
+        background-color: $gray-5;
+      }
+
+      .suggestion-note {
+        color: $indigo;
+        font-style: italic;
+      }
+    }
+  }
+}
