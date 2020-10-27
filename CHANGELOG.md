@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### ✨ Features
+
+- The new suggestions popup for completing note or block references is now styled in keeping with the theme.
+
 ### 🔁 Changes
 
 - Improved styling around folded lists.
