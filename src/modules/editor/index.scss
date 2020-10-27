@@ -15,7 +15,8 @@
     width: 25px !important;
   }
 
-  .cm-formatting {
+  .cm-formatting,
+  .CodeMirror-foldmarker {
     color: $indigo !important;
   }
 
@@ -55,6 +56,8 @@
   span.cm-inline-code {
     color: $cyan;
     font-size: inherit;
+    // Patch for https://forum.obsidian.md/t/collapsed-code-block-in-list-causes-additional-padding-in-inline-code-elements-in-parent-block/7633
+    padding: 0 !important;
   }
 
   pre.HyperMD-codeblock {
@@ -64,7 +67,8 @@
 
   span.cm-hmd-codeblock,
   span.cm-hmd-indented-code,
-  span.cm-math {
+  span.cm-math,
+  pre.HyperMD-codeblock {
     color: $purple;
   }
 

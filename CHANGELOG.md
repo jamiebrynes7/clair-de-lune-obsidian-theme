@@ -7,9 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### 🔁 Changes
+
+- Improved styling around folded lists.
+
 ### 🐛 Bugfixes
 
 - Aligned wrapped text next to checkboxes properly.
+- A folded list item containing inline code where the folded content contains a code block no longer has additional padding.
 
 ## [1.1.0] - 2020-10-25
 
