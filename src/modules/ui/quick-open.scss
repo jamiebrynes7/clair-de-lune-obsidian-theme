@@ -1,13 +1,27 @@
 @import "../../colors.scss";
 
-.suggestion-item.is-selected {
-  background-color: $gray-5;
-}
-
 .prompt {
   background-color: $gray-3;
-}
+  border: 1px solid $gray-1;
 
-.prompt-instructions {
-  border-top: 1px solid $gray-1;
+  .prompt-input {
+    font-size: 14px;
+  }
+
+  .prompt-results {
+    .suggestion-item {
+      padding: 8px 10px;
+      font-size: 14px;
+      margin-right: 2px;
+
+      &.is-selected {
+        background-color: $gray-5;
+      }
+    }
+  }
+
+  .prompt-instructions {
+    border-top: 1px solid $gray-1;
+    color: $indigo;
+  }
 }
