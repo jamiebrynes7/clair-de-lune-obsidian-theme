@@ -14,6 +14,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### 🔁 Changes
 
 - Improved styling around folded lists.
+- Updated the quick open styling to match the suggestions popup.
 
 ### 🐛 Bugfixes
 
