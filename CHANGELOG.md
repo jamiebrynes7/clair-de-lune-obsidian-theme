@@ -13,6 +13,7 @@ This version was tested against Obsidian 0.9.10.
 
 - The new suggestions popup for completing note or block references is now styled in keeping with the theme.
 - Tags in preview mode now have special styling, certain tag references will have emojis instead of hashtags. See [tags.scss](./src/modules/preview/tags.scss) for a list of these.
+- Added support for state diagrams in Mermaid.
 
 ### 🔁 Changes
 
