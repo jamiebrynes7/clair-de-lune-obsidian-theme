@@ -19,9 +19,21 @@ text.actor {
   stroke: $gray-6 !important;
 }
 
-rect.note {
+rect.note,
+.statediagram-note rect {
   fill: rgba($yellow, 0.3) !important;
   stroke: rgba($yellow, 0.75) !important;
+}
+
+.statediagram-cluster {
+  .outer,
+  .inner {
+    stroke: $gray-6 !important;
+  }
+}
+
+.edge-thickness-normal {
+  stroke: $gray-6 !important;
 }
 
 .section0,
@@ -113,8 +125,9 @@ path.relation {
 #dependencyStart,
 #extensionEnd,
 #compositionEnd,
-#aggregationEnd,
-#dependencyEnd {
+z #aggregationEnd,
+#dependencyEnd,
+#statediagram-barbEnd {
   fill: $gray-6 !important;
 }
 
