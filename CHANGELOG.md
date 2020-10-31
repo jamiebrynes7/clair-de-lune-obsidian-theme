@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+This version was tested against Obsidian 0.9.10.
+
 ### ✨ Features
 
 - The new suggestions popup for completing note or block references is now styled in keeping with the theme.
