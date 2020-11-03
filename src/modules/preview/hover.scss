@@ -1,0 +1,21 @@
+.popover {
+  &.hover-popover {
+    max-height: 500px;
+    min-height: 200px;
+
+    width: 600px;
+
+    & > .markdown-embed {
+      height: 500px;
+      font-size: 0.9em;
+
+      .markdown-embed-link {
+        color: $indigo;
+
+        &:hover {
+          color: $cyan;
+        }
+      }
+    }
+  }
+}
