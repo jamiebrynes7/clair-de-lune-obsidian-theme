@@ -28,6 +28,10 @@
   }
 }
 
+body.plugin-sliding-panes .mod-root .workspace-leaf.mod-active .view-header {
+  border-right: 1px solid rgba($green, 0.5) !important;
+}
+
 .view-header-icon {
   color: rgba($gray-6, 0.5);
 
