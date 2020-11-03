@@ -38,13 +38,3 @@ jobs:
           asset_path: ./build/obsidian.css
           asset_name: obsidian.css
           asset_content_type: application/text
-
-      - name: Upload release assets (2/2)
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./build/obsidian-andy.css
-          asset_name: obsidian-andy.css
-          asset_content_type: application/text
