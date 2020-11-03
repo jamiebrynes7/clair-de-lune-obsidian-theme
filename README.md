@@ -8,7 +8,7 @@ A dark theme for [Obsidian](https://obsidian.md/) inspired by the [Moonlight](ht
 
 Comes with built-in support for:
 
-- [Andy Mode](https://forum.obsidian.md/t/andy-matuschak-mode/70)
+- [Sliding Panes Plugin](https://github.com/deathau/sliding-panes-obsidian)
 - [Todoist plugin](https://forum.obsidian.md/t/todoist-sync-plugin-v1-3-1/5849/1)
 
 ## Usage
@@ -16,7 +16,6 @@ Comes with built-in support for:
 **Important:** This theme uses the [Inter](https://rsms.me/inter/) and [JetBrains Mono](https://jetbrains.com/mono) fonts. For the best experience, I recommend installing these fonts onto your local machine.
 
 1. Open Obsidian and go to the 'Appearance' tab. Ensure that the 'Base mode' setting is set to `Dark mode` and that 'Custom CSS' is turned on.
-2. Download either `obsidian.css` or `obsidian-andy.css` from the [latest release](https://github.com/jamiebrynes7/clair-de-lune-obsidian-theme/releases).
-   - If you downloaded `obsidian-andy.css`, rename it to `obsidian.css`.
+2. Download either `obsidian.css`from the [latest release](https://github.com/jamiebrynes7/clair-de-lune-obsidian-theme/releases).
 3. Place this in the root of your Obsidian notes directory.
 4. Enjoy!
