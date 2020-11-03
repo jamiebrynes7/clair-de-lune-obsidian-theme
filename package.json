@@ -4,8 +4,7 @@
   "description": "An Obsidian.md theme based on the Moonlight theme family.",
   "main": "index.js",
   "scripts": {
-    "build": "sass src/index.scss ./build/obsidian.css",
-    "build:andy": "sass src/andy-mode.scss ./build/obsidian-andy.css",
+    "build": "sass src/index.scss ./obsidian.css",
     "lint:fix": "prettier -w ./src",
     "lint:check": "prettier -c ./src"
   },

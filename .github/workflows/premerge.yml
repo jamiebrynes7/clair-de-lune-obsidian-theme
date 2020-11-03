@@ -16,6 +16,3 @@ jobs:
 
       - name: Build
         run: npm run build
-
-      - name: Build Andy Mode
-        run: npm run build:andy
