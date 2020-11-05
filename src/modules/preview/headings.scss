@@ -12,6 +12,8 @@
     font-weight: 600;
     line-height: 1.25;
     color: $text-primary;
+    display: flex;
+    align-items: center;
   }
 
   h1 {
@@ -43,5 +45,9 @@
   h2 {
     padding-bottom: 0.3em;
     border-bottom: 1px solid $gray-6;
+  }
+
+  .heading-collapse-indicator {
+    color: $indigo;
   }
 }

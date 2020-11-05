@@ -1,8 +1,27 @@
+@import "../../colors.scss";
+
 .markdown-preview-view {
   ul ul,
   ol ol,
   ul ol,
   ol ul {
     padding-inline-start: 20px;
+  }
+
+  ul {
+    list-style: none;
+
+    li:not(.task-list-item)::before {
+      content: "\2022";
+      color: $indigo;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+  }
+
+  .list-collapse-indicator {
+    color: $indigo;
   }
 }
