@@ -15,6 +15,7 @@ This version was tested against Obsidian 0.9.10.
 - Tags in preview mode now have special styling, certain tag references will have emojis instead of hashtags. See [tags.scss](./src/modules/preview/tags.scss) for a list of these.
 - Added support for state diagrams in Mermaid.
 - Added support for the new [sliding panes](https://github.com/deathau/sliding-panes-obsidian) plugin. This replaces the `obsidian-andy.css` variant.
+- Added support for the [calendar](https://github.com/liamcain/obsidian-calendar-plugin) plugin.
 
 ### 🔁 Changes
 
