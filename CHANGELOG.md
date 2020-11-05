@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### 🐛 Bugfixes
+
+- Page references within headers are now rendered with the correct whitespace.
+
 ## [1.2.0] - 2020-11-05
 
 This version was tested against Obsidian 0.9.10.
