@@ -1,0 +1,44 @@
+/* Support for https://github.com/liamcain/obsidian-calendar-plugin */
+
+@import "../../colors.scss";
+
+#calendar-container {
+  .title {
+    div.arrow {
+      color: $indigo;
+
+      &:hover {
+        color: $aqua;
+      }
+    }
+  }
+
+  tr {
+    td:not(:empty) {
+      border-radius: 5px;
+
+      &.active {
+        background-color: $gray-6 !important;
+      }
+
+      &.today {
+        background-color: $gray-4 !important;
+        color: $aqua;
+      }
+
+      &:hover {
+        background-color: $gray-5 !important;
+      }
+
+      .dot-container {
+        .dot {
+          fill: rgba($green, 0.5) !important;
+        }
+      }
+    }
+
+    td:empty {
+      background-color: inherit;
+    }
+  }
+}

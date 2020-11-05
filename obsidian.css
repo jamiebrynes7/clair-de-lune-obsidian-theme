@@ -823,6 +823,33 @@ button.mod-cta:hover {
   border-top: 1px solid #191a2a;
 }
 
+/* Support for https://github.com/liamcain/obsidian-calendar-plugin */
+#calendar-container .title div.arrow {
+  color: #7a88cf;
+}
+#calendar-container .title div.arrow:hover {
+  color: #50c4fa;
+}
+#calendar-container tr td:not(:empty) {
+  border-radius: 5px;
+}
+#calendar-container tr td:not(:empty).active {
+  background-color: #444a73 !important;
+}
+#calendar-container tr td:not(:empty).today {
+  background-color: #222436 !important;
+  color: #50c4fa;
+}
+#calendar-container tr td:not(:empty):hover {
+  background-color: #2f334d !important;
+}
+#calendar-container tr td:not(:empty) .dot-container .dot {
+  fill: rgba(195, 232, 141, 0.5) !important;
+}
+#calendar-container tr td:empty {
+  background-color: inherit;
+}
+
 .todoist-query-title {
   display: inline;
 }
