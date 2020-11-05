@@ -451,7 +451,7 @@ path.relation {
 #dependencyStart,
 #extensionEnd,
 #compositionEnd,
-z #aggregationEnd,
+#aggregationEnd,
 #dependencyEnd,
 #statediagram-barbEnd {
   fill: #444a73 !important;
