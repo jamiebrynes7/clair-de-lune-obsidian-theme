@@ -238,6 +238,8 @@
   font-weight: 600;
   line-height: 1.25;
   color: #c8d3f5;
+  display: flex;
+  align-items: center;
 }
 .markdown-preview-view h1 {
   font-size: 2em;
@@ -262,6 +264,9 @@
 .markdown-preview-view h2 {
   padding-bottom: 0.3em;
   border-bottom: 1px solid #444a73;
+}
+.markdown-preview-view .heading-collapse-indicator {
+  color: #7a88cf;
 }
 
 .popover.hover-popover {
@@ -308,6 +313,20 @@
 .markdown-preview-view ul ol,
 .markdown-preview-view ol ul {
   padding-inline-start: 20px;
+}
+.markdown-preview-view ul {
+  list-style: none;
+}
+.markdown-preview-view ul li:not(.task-list-item)::before {
+  content: "•";
+  color: #7a88cf;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.markdown-preview-view .list-collapse-indicator {
+  color: #7a88cf;
 }
 
 span.math.math-block {
@@ -851,7 +870,7 @@ button.mod-cta:hover {
 }
 
 .todoist-query-title {
-  display: inline;
+  display: inline !important;
 }
 
 .todoist-refresh-button {
