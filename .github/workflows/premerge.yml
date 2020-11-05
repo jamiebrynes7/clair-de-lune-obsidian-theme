@@ -16,3 +16,6 @@ jobs:
 
       - name: Build
         run: npm run build
+
+      - name: Check obsidian.css is checked in
+        run: git diff-index --quiet HEAD --
