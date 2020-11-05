@@ -23,6 +23,8 @@ This version was tested against Obsidian 0.9.10.
 - Updated the quick open styling to match the suggestions popup.
 - Math blocks are now slightly larger.
 - Hover popups are now larger.
+- Collapse arrows in preview mode are now styled.
+- Bulleted lists are now styled.
 
 ### 🐛 Bugfixes
 
