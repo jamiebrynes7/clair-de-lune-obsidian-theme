@@ -17,6 +17,6 @@ Comes with built-in support for:
 **Important:** This theme uses the [Inter](https://rsms.me/inter/) and [JetBrains Mono](https://jetbrains.com/mono) fonts. For the best experience, I recommend installing these fonts onto your local machine.
 
 1. Open Obsidian and go to the 'Appearance' tab. Ensure that the 'Base mode' setting is set to `Dark mode` and that 'Custom CSS' is turned on.
-2. Download either `obsidian.css`from the [latest release](https://github.com/jamiebrynes7/clair-de-lune-obsidian-theme/releases).
+2. Download `obsidian.css`from the [latest release](https://github.com/jamiebrynes7/clair-de-lune-obsidian-theme/releases).
 3. Place this in the root of your Obsidian notes directory.
 4. Enjoy!

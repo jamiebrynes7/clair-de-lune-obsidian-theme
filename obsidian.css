@@ -451,7 +451,7 @@ path.relation {
 #dependencyStart,
 #extensionEnd,
 #compositionEnd,
-z #aggregationEnd,
+#aggregationEnd,
 #dependencyEnd,
 #statediagram-barbEnd {
   fill: #444a73 !important;
@@ -487,7 +487,6 @@ z #aggregationEnd,
   padding: 3px 5px;
   border-radius: 5px;
   letter-spacing: -0.05ch;
-  text-transform: uppercase;
 }
 
 .tag[href="#drafting"] {

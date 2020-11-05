@@ -21,7 +21,6 @@
 
 .tag {
   @include base-tag();
-  text-transform: uppercase;
 }
 
 .tag[href="#drafting"] {
