@@ -11,15 +11,6 @@ jobs:
       - name: Checkout source
         uses: actions/checkout@v2
 
-      - name: Install NPM dependencies
-        run: npm install
-
-      - name: Build
-        run: npm run build
-
-      - name: Build Andy Mode
-        run: npm run build:andy
-
       - name: Create release
         id: create_release
         uses: actions/create-release@v1
@@ -29,12 +20,12 @@ jobs:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
 
-      - name: Upload release assets (1/2)
+      - name: Upload release assets
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./build/obsidian.css
+          asset_path: ./obsidian.css
           asset_name: obsidian.css
           asset_content_type: application/text
