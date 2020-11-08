@@ -13,6 +13,11 @@ body:not(.is-grabbing) .nav-folder-title:hover {
   background-color: $gray-5;
 }
 
+.nav-folder-title.is-being-dragged-over {
+  background-color: $gray-5;
+  border: 1px solid $gray-6;
+}
+
 .nav-folder-collapse-indicator {
   background-color: unset !important;
 }
