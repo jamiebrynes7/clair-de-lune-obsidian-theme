@@ -684,6 +684,11 @@ body:not(.is-grabbing) .nav-folder-title:hover {
   background-color: #2f334d;
 }
 
+.nav-folder-title.is-being-dragged-over {
+  background-color: #2f334d;
+  border: 1px solid #444a73;
+}
+
 .nav-folder-collapse-indicator {
   background-color: unset !important;
 }
