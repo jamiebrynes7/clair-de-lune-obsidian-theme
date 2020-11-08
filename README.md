@@ -11,6 +11,7 @@ Comes with built-in support for:
 - [Sliding Panes Plugin](https://github.com/deathau/sliding-panes-obsidian)
 - [Todoist Plugin](https://forum.obsidian.md/t/todoist-sync-plugin-v1-3-1/5849/1)
 - [Calendar Plugin](https://github.com/liamcain/obsidian-calendar-plugin)
+- [Editor Syntax Highlight Obsidian Plugin](https://github.com/deathau/cm-editor-syntax-highlight-obsidian).
 
 ## Usage
 
