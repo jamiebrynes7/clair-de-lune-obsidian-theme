@@ -5,13 +5,13 @@
   border: 1px solid $gray-1;
 
   .prompt-input {
-    font-size: 14px;
+    font-size: var(--font-prompt-size);
   }
 
   .prompt-results {
     .suggestion-item {
       padding: 8px 10px;
-      font-size: 14px;
+      font-size: var(--font-prompt-size);
       margin-right: 2px;
 
       &.is-selected {

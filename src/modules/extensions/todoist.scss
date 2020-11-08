@@ -65,7 +65,7 @@
 }
 
 .task-metadata {
-  font-size: small;
+  font-size: var(--font-todoist-metadata-size);
   color: $indigo;
   margin-left: 20px;
 }
@@ -100,7 +100,7 @@
 }
 
 .todoist-section .todoist-section-title {
-  font-size: 11pt;
+  font-size: var(--font-todoist-title-size);
   color: $indigo;
   font-weight: 700;
   margin-block-end: 0px;

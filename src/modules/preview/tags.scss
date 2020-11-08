@@ -1,7 +1,7 @@
 @import "../../colors.scss";
 
 @mixin base-tag {
-  font-size: 9pt;
+  font-size: var(--font-tag-preview-size);
   font-weight: 900;
   background-color: $gray-1;
   padding: 3px 5px;

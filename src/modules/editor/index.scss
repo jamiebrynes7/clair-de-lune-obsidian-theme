@@ -3,12 +3,12 @@
 .cm-s-obsidian {
   font-family: var(--font-monospace);
   color: $text-paragraph;
-  font-size: 11pt;
+  font-size: var(--font-editor-size);
   line-height: 1.5em;
 
   .CodeMirror-linenumber {
     color: rgba($indigo, 0.5);
-    font-size: medium;
+    font-size: var(--font-editor-linenumbers-size);
   }
 
   .CodeMirror-gutter-elt {
@@ -30,7 +30,7 @@
   .cm-header-4,
   .cm-header-5,
   .cm-header-6 {
-    font-size: 11pt;
+    font-size: var(--font-editor-size);
     line-height: 1.5em;
   }
 
@@ -62,7 +62,7 @@
 
   pre.HyperMD-codeblock {
     line-height: 1.5em;
-    font-size: 11pt;
+    font-size: var(--font-editor-size);
   }
 
   span.cm-hmd-codeblock,

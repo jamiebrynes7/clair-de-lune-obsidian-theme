@@ -7,7 +7,7 @@
 
     & > .markdown-embed {
       height: 500px;
-      font-size: 0.9em;
+      font-size: var(--font-hover-preview-size);
 
       .markdown-embed-link {
         color: $indigo;

@@ -9,7 +9,7 @@
 
     .suggestion-item {
       padding: 8px 10px;
-      font-size: 14px;
+      font-size: var(--font-preview-size);
       margin-right: 2px;
 
       .suggestion-content {
