@@ -2,17 +2,17 @@
 
 .markdown-preview-view {
   .markdown-embed {
-    border: 1px solid rgba($indigo, 0.25);
     margin: 0;
+    border: none;
   }
 
   .markdown-embed .markdown-preview-view {
-    padding: 15px 20px;
+    padding: 0px;
   }
 
   .markdown-embed-link {
-    top: 8px;
-    right: 8px;
+    top: 12px;
+    right: 12px;
     color: $indigo;
 
     &:hover {
