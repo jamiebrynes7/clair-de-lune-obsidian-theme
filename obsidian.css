@@ -112,7 +112,49 @@
 .cm-s-obsidian span.cm-hmd-indented-code,
 .cm-s-obsidian span.cm-math,
 .cm-s-obsidian pre.HyperMD-codeblock {
-  color: #c099ff;
+  color: #b4c2f0;
+}
+.cm-s-obsidian span.cm-hmd-codeblock span.cm-keyword,
+.cm-s-obsidian span.cm-hmd-indented-code span.cm-keyword,
+.cm-s-obsidian span.cm-math span.cm-keyword,
+.cm-s-obsidian pre.HyperMD-codeblock span.cm-keyword {
+  color: #c099ff !important;
+}
+.cm-s-obsidian span.cm-hmd-codeblock span.cm-def,
+.cm-s-obsidian span.cm-hmd-indented-code span.cm-def,
+.cm-s-obsidian span.cm-math span.cm-def,
+.cm-s-obsidian pre.HyperMD-codeblock span.cm-def {
+  color: #c8d3f5 !important;
+}
+.cm-s-obsidian span.cm-hmd-codeblock span.cm-variable,
+.cm-s-obsidian span.cm-hmd-indented-code span.cm-variable,
+.cm-s-obsidian span.cm-math span.cm-variable,
+.cm-s-obsidian pre.HyperMD-codeblock span.cm-variable {
+  color: #65bcff !important;
+}
+.cm-s-obsidian span.cm-hmd-codeblock span.cm-operator,
+.cm-s-obsidian span.cm-hmd-indented-code span.cm-operator,
+.cm-s-obsidian span.cm-math span.cm-operator,
+.cm-s-obsidian pre.HyperMD-codeblock span.cm-operator {
+  color: #86e1fc !important;
+}
+.cm-s-obsidian span.cm-hmd-codeblock span.cm-number,
+.cm-s-obsidian span.cm-hmd-indented-code span.cm-number,
+.cm-s-obsidian span.cm-math span.cm-number,
+.cm-s-obsidian pre.HyperMD-codeblock span.cm-number {
+  color: #ff966c !important;
+}
+.cm-s-obsidian span.cm-hmd-codeblock span.cm-string,
+.cm-s-obsidian span.cm-hmd-indented-code span.cm-string,
+.cm-s-obsidian span.cm-math span.cm-string,
+.cm-s-obsidian pre.HyperMD-codeblock span.cm-string {
+  color: #c3e88d !important;
+}
+.cm-s-obsidian span.cm-hmd-codeblock span.cm-comment,
+.cm-s-obsidian span.cm-hmd-indented-code span.cm-comment,
+.cm-s-obsidian span.cm-math span.cm-comment,
+.cm-s-obsidian pre.HyperMD-codeblock span.cm-comment {
+  color: #7a88cf !important;
 }
 .cm-s-obsidian .cm-quote {
   color: #a9b8e8 !important;
@@ -189,11 +231,10 @@
 }
 .markdown-preview-view pre {
   padding: 16px !important;
-  font-size: 95% !important;
   line-height: 1.45 !important;
   border: 1px solid #131421 !important;
   border-radius: 6px !important;
-  background-color: #222436 !important;
+  background-color: #191a2a !important;
   font-family: var(--font-monospace) !important;
 }
 .markdown-preview-view pre code {

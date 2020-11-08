@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### ✨ Features
 
 - Font sizes set by this theme are now controllable by CSS variables. See [index.scss](./src/index.scss) for details.
+- Restyled code blocks and added support for [Editor Syntax Highlight Obsidian Plugin](https://github.com/deathau/cm-editor-syntax-highlight-obsidian).
 
 ## [1.2.1] - 2020-11-05
 
