@@ -69,7 +69,35 @@
   span.cm-hmd-indented-code,
   span.cm-math,
   pre.HyperMD-codeblock {
-    color: $purple;
+    color: $text-secondary;
+
+    span.cm-keyword {
+      color: $purple !important;
+    }
+
+    span.cm-def {
+      color: $text-primary !important;
+    }
+
+    span.cm-variable {
+      color: $sky-blue !important;
+    }
+
+    span.cm-operator {
+      color: $cyan !important;
+    }
+
+    span.cm-number {
+      color: $orange !important;
+    }
+
+    span.cm-string {
+      color: $green !important;
+    }
+
+    span.cm-comment {
+      color: $indigo !important;
+    }
   }
 
   .cm-quote {
