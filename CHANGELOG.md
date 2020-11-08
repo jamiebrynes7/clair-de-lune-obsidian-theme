@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### ✨ Features
+
+- Font sizes set by this theme are now controllable by CSS variables. See [index.scss](./src/index.scss) for details.
+
 ## [1.2.1] - 2020-11-05
 
 ### 🐛 Bugfixes

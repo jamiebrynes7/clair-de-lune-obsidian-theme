@@ -18,27 +18,27 @@
   }
 
   h1 {
-    font-size: 2em;
+    font-size: var(--font-h1-preview-size);
   }
 
   h2 {
-    font-size: 1.5em;
+    font-size: var(--font-h2-preview-size);
   }
 
   h3 {
-    font-size: 1.25em;
+    font-size: var(--font-h3-preview-size);
   }
 
   h4 {
-    font-size: 1em;
+    font-size: var(--font-h4-preview-size);
   }
 
   h5 {
-    font-size: 0.875em;
+    font-size: var(--font-h5-preview-size);
   }
 
   h6 {
-    font-size: 0.85em;
+    font-size: var(--font-h6-preview-size);
     color: $text-gray;
   }
 

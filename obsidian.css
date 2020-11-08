@@ -2,6 +2,20 @@
 :root {
   --default-font: "Inter", sans-serif;
   --font-monospace: "Jetbrains Mono", monospace;
+  --font-editor-size: 11pt;
+  --font-editor-linenumbers-size: medium;
+  --font-h1-preview-size: 2em;
+  --font-h2-preview-size: 1.5em;
+  --font-h3-preview-size: 1.25;
+  --font-h4-preview-size: 1em;
+  --font-h5-preview-size: 0.875em;
+  --font-h6-preview-size: 0.85em;
+  --font-math-preview-size: 18px;
+  --font-tag-preview-size: 9pt;
+  --font-hover-preview-size: 0.9em;
+  --font-prompts-size: 14px;
+  --font-todoist-title-size: 1em;
+  --font-todoist-metadata-size: small;
 }
 
 .theme-dark {
@@ -44,12 +58,12 @@
 .cm-s-obsidian {
   font-family: var(--font-monospace);
   color: #c0cdf3;
-  font-size: 11pt;
+  font-size: var(--font-editor-size);
   line-height: 1.5em;
 }
 .cm-s-obsidian .CodeMirror-linenumber {
   color: rgba(122, 136, 207, 0.5);
-  font-size: medium;
+  font-size: var(--font-editor-linenumbers-size);
 }
 .cm-s-obsidian .CodeMirror-gutter-elt {
   width: 25px !important;
@@ -67,7 +81,7 @@
 .cm-s-obsidian .cm-header-4,
 .cm-s-obsidian .cm-header-5,
 .cm-s-obsidian .cm-header-6 {
-  font-size: 11pt;
+  font-size: var(--font-editor-size);
   line-height: 1.5em;
 }
 .cm-s-obsidian .cm-formatting-link,
@@ -92,7 +106,7 @@
 }
 .cm-s-obsidian pre.HyperMD-codeblock {
   line-height: 1.5em;
-  font-size: 11pt;
+  font-size: var(--font-editor-size);
 }
 .cm-s-obsidian span.cm-hmd-codeblock,
 .cm-s-obsidian span.cm-hmd-indented-code,
@@ -243,22 +257,22 @@
   white-space: pre-wrap;
 }
 .markdown-preview-view h1 {
-  font-size: 2em;
+  font-size: var(--font-h1-preview-size);
 }
 .markdown-preview-view h2 {
-  font-size: 1.5em;
+  font-size: var(--font-h2-preview-size);
 }
 .markdown-preview-view h3 {
-  font-size: 1.25em;
+  font-size: var(--font-h3-preview-size);
 }
 .markdown-preview-view h4 {
-  font-size: 1em;
+  font-size: var(--font-h4-preview-size);
 }
 .markdown-preview-view h5 {
-  font-size: 0.875em;
+  font-size: var(--font-h5-preview-size);
 }
 .markdown-preview-view h6 {
-  font-size: 0.85em;
+  font-size: var(--font-h6-preview-size);
   color: #a9b8e8;
 }
 .markdown-preview-view h1,
@@ -277,7 +291,7 @@
 }
 .popover.hover-popover > .markdown-embed {
   height: 500px;
-  font-size: 0.9em;
+  font-size: var(--font-hover-preview-size);
 }
 .popover.hover-popover > .markdown-embed .markdown-embed-link {
   color: #7a88cf;
@@ -331,7 +345,7 @@
 }
 
 span.math.math-block {
-  font-size: 18px;
+  font-size: var(--font-math-preview-size);
 }
 
 .node rect,
@@ -482,7 +496,7 @@ path.relation {
 }
 
 .tag {
-  font-size: 9pt;
+  font-size: var(--font-tag-preview-size);
   font-weight: 900;
   background-color: #131421;
   padding: 3px 5px;
@@ -495,7 +509,7 @@ path.relation {
   padding: 0;
 }
 .tag[href="#drafting"]:after {
-  font-size: 9pt;
+  font-size: var(--font-tag-preview-size);
   font-weight: 900;
   background-color: #131421;
   padding: 3px 5px;
@@ -509,7 +523,7 @@ path.relation {
   padding: 0;
 }
 .tag[href="#complete"]:after {
-  font-size: 9pt;
+  font-size: var(--font-tag-preview-size);
   font-weight: 900;
   background-color: #131421;
   padding: 3px 5px;
@@ -523,7 +537,7 @@ path.relation {
   padding: 0;
 }
 .tag[href="#archived"]:after {
-  font-size: 9pt;
+  font-size: var(--font-tag-preview-size);
   font-weight: 900;
   background-color: #131421;
   padding: 3px 5px;
@@ -537,7 +551,7 @@ path.relation {
   padding: 0;
 }
 .tag[href="#seedling"]:after {
-  font-size: 9pt;
+  font-size: var(--font-tag-preview-size);
   font-weight: 900;
   background-color: #131421;
   padding: 3px 5px;
@@ -551,7 +565,7 @@ path.relation {
   padding: 0;
 }
 .tag[href="#evergreen"]:after {
-  font-size: 9pt;
+  font-size: var(--font-tag-preview-size);
   font-weight: 900;
   background-color: #131421;
   padding: 3px 5px;
@@ -687,11 +701,11 @@ input:hover {
   border: 1px solid #131421;
 }
 .prompt .prompt-input {
-  font-size: 14px;
+  font-size: var(--font-prompt-size);
 }
 .prompt .prompt-results .suggestion-item {
   padding: 8px 10px;
-  font-size: 14px;
+  font-size: var(--font-prompt-size);
   margin-right: 2px;
 }
 .prompt .prompt-results .suggestion-item.is-selected {
@@ -762,7 +776,7 @@ button.mod-cta:hover {
 }
 .suggestion-container .suggestion .suggestion-item {
   padding: 8px 10px;
-  font-size: 14px;
+  font-size: var(--font-preview-size);
   margin-right: 2px;
 }
 .suggestion-container .suggestion .suggestion-item .suggestion-content .suggestion-heading-level {
@@ -923,7 +937,7 @@ button.mod-cta:hover {
 }
 
 .task-metadata {
-  font-size: small;
+  font-size: var(--font-todoist-metadata-size);
   color: #7a88cf;
   margin-left: 20px;
 }
@@ -958,7 +972,7 @@ button.mod-cta:hover {
 }
 
 .todoist-section .todoist-section-title {
-  font-size: 11pt;
+  font-size: var(--font-todoist-title-size);
   color: #7a88cf;
   font-weight: 700;
   margin-block-end: 0px;
