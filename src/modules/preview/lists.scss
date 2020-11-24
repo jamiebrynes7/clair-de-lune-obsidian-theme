@@ -24,4 +24,8 @@
   .list-collapse-indicator {
     color: $indigo;
   }
+
+  li > p {
+    display: inline;
+  }
 }

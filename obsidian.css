@@ -203,7 +203,7 @@
   top: 6px;
   line-height: 0;
   margin-right: 5px;
-  margin-left: -6px;
+  margin-left: -27px;
 }
 .markdown-preview-view ul > li.task-list-item input[type=checkbox]:hover {
   background-color: rgba(130, 170, 255, 0.5) !important;
@@ -383,6 +383,9 @@
 }
 .markdown-preview-view .list-collapse-indicator {
   color: #7a88cf;
+}
+.markdown-preview-view li > p {
+  display: inline;
 }
 
 span.math.math-block {
@@ -985,7 +988,6 @@ button.mod-cta:hover {
 .task-metadata {
   font-size: var(--font-todoist-metadata-size);
   color: #7a88cf;
-  margin-left: 20px;
 }
 
 .task-metadata > * {
