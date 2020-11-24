@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### 🔁 Changes
 
 - Tweaked how embedded blocks are rendered.
+- Tweaked how code blocks are rendered in preview mode.
 
 ## [1.2.1] - 2020-11-05
 

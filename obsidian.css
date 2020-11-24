@@ -112,7 +112,7 @@
 .cm-s-obsidian span.cm-hmd-indented-code,
 .cm-s-obsidian span.cm-math,
 .cm-s-obsidian pre.HyperMD-codeblock {
-  color: #b4c2f0;
+  color: #828bb8;
 }
 .cm-s-obsidian span.cm-hmd-codeblock span.cm-keyword,
 .cm-s-obsidian span.cm-hmd-indented-code span.cm-keyword,
@@ -221,9 +221,9 @@
 }
 
 .markdown-preview-view :not(pre) > code {
-  color: #e2e8fa;
-  background-color: #444a73;
-  border-color: #131421;
+  color: #c8d3f5;
+  background-color: #191a2a;
+  border: 1px solid #131421;
   margin: 0.4em;
   font-family: var(--font-monospace);
   padding: 0.2em 0.4em;
