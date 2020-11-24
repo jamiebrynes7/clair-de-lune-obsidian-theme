@@ -2,9 +2,9 @@
 
 .markdown-preview-view {
   :not(pre) > code {
-    color: $text-light;
-    background-color: $gray-6;
-    border-color: $gray-1;
+    color: $text-primary;
+    background-color: $gray-2;
+    border: 1px solid $gray-1;
     margin: 0.4em;
     font-family: var(--font-monospace);
     padding: 0.2em 0.4em;
