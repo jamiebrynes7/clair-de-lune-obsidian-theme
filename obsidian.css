@@ -330,6 +330,9 @@
   min-height: 200px;
   width: 600px;
 }
+.popover.hover-popover .markdown-embed {
+  height: unset;
+}
 .popover.hover-popover > .markdown-embed {
   height: 500px;
   font-size: var(--font-hover-preview-size);

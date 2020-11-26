@@ -5,6 +5,10 @@
 
     width: 600px;
 
+    & .markdown-embed {
+      height: unset;
+    }
+
     & > .markdown-embed {
       height: 500px;
       font-size: var(--font-hover-preview-size);

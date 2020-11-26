@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### 🐛 Bugfixes
 
 - Fixed some issues introduced by Obsidian v0.9.15
+- Fixed a bug where block embeds in hover popups were incorrectly sized.
 
 ## [1.2.1] - 2020-11-05
 
