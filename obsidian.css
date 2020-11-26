@@ -929,21 +929,20 @@ input:hover {
 }
 
 /* Support for https://github.com/liamcain/obsidian-calendar-plugin */
-#calendar-container .title div.arrow {
+#calendar-container .title .year {
   color: #7a88cf;
 }
-#calendar-container .title div.arrow:hover {
-  color: #50c4fa;
+#calendar-container div.arrow svg {
+  color: #7a88cf;
 }
 #calendar-container tr td:not(:empty) {
   border-radius: 5px;
 }
+#calendar-container tr td:not(:empty).today {
+  color: #c3e88d;
+}
 #calendar-container tr td:not(:empty).active {
   background-color: #444a73 !important;
-}
-#calendar-container tr td:not(:empty).today {
-  background-color: #222436 !important;
-  color: #50c4fa;
 }
 #calendar-container tr td:not(:empty):hover {
   background-color: #2f334d !important;

@@ -4,26 +4,25 @@
 
 #calendar-container {
   .title {
-    div.arrow {
+    .year {
       color: $indigo;
-
-      &:hover {
-        color: $aqua;
-      }
     }
+  }
+
+  div.arrow svg {
+    color: $indigo;
   }
 
   tr {
     td:not(:empty) {
       border-radius: 5px;
 
-      &.active {
-        background-color: $gray-6 !important;
+      &.today {
+        color: $green;
       }
 
-      &.today {
-        background-color: $gray-4 !important;
-        color: $aqua;
+      &.active {
+        background-color: $gray-6 !important;
       }
 
       &:hover {
