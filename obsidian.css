@@ -631,12 +631,42 @@ path.relation {
   color: #7a88cf;
 }
 
-button.mod-warning {
-  background-color: #ff98a4;
-  color: #191a2a;
+.modal button:not(.mod-cta):not(.mod-warning),
+.modal.mod-settings button:not(.mod-cta):not(.mod-warning),
+button:not(.mod-cta):not(.mod-warning) {
+  background-color: #191a2a;
+  border: 1px solid #131421;
 }
+.modal button:not(.mod-cta):not(.mod-warning):hover,
+.modal.mod-settings button:not(.mod-cta):not(.mod-warning):hover,
+button:not(.mod-cta):not(.mod-warning):hover {
+  background-color: #1e2030;
+}
+.modal button.mod-warning,
+.modal.mod-settings button.mod-warning,
+button.mod-warning {
+  border: 1px solid #ff757f;
+  color: #ff757f;
+  background-color: #191a2a;
+}
+.modal button.mod-warning:hover,
+.modal.mod-settings button.mod-warning:hover,
 button.mod-warning:hover {
-  background-color: #ff757f;
+  color: #ff98a4;
+  background-color: #1e2030;
+}
+.modal button.mod-cta,
+.modal.mod-settings button.mod-cta,
+button.mod-cta {
+  border: 1px solid #7a88cf;
+  color: #e2e8fa;
+  background-color: #191a2a;
+}
+.modal button.mod-cta:hover,
+.modal.mod-settings button.mod-cta:hover,
+button.mod-cta:hover {
+  color: #e2e8fa;
+  background-color: #1e2030;
 }
 
 .view-header {
@@ -807,16 +837,6 @@ input:hover {
 
 .dropdown:hover {
   background-color: #1e2030;
-}
-
-button.mod-cta {
-  background-color: #6777c8;
-  color: #e2e8fa;
-}
-
-button.mod-cta:hover {
-  background-color: #7a88cf;
-  color: #e2e8fa;
 }
 
 .suggestion-container {

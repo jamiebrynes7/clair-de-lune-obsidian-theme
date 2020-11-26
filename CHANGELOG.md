@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Tweaked how embedded blocks are rendered.
 - Tweaked how code blocks are rendered in preview mode.
+- Unified how buttons are rendered in Obsidian.
 
 ### 🐛 Bugfixes
 

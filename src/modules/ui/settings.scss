@@ -30,13 +30,3 @@
 .dropdown:hover {
   background-color: $gray-3;
 }
-
-button.mod-cta {
-  background-color: darken($indigo, 5%);
-  color: $text-light;
-}
-
-button.mod-cta:hover {
-  background-color: $indigo;
-  color: $text-light;
-}

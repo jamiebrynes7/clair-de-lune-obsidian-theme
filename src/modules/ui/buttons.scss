@@ -1,10 +1,36 @@
 @import "../../colors.scss";
 
-button.mod-warning {
-  background-color: $light-red;
-  color: $gray-2;
+.modal button,
+.modal.mod-settings button,
+button {
+  &:not(.mod-cta):not(.mod-warning) {
+    background-color: $gray-2;
+    border: 1px solid $gray-1;
 
-  &:hover {
-    background-color: $red;
+    &:hover {
+      background-color: $gray-3;
+    }
+  }
+
+  &.mod-warning {
+    border: 1px solid $red;
+    color: $red;
+    background-color: $gray-2;
+
+    &:hover {
+      color: $light-red;
+      background-color: $gray-3;
+    }
+  }
+
+  &.mod-cta {
+    border: 1px solid $indigo;
+    color: $text-light;
+    background-color: $gray-2;
+
+    &:hover {
+      color: $text-light;
+      background-color: $gray-3;
+    }
   }
 }
