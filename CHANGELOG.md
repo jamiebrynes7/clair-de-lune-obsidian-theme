@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.3.0] - 2020-12-03
+
+Tested against Obsidian v0.9.20, other versions should work, but you results may vary!
+
 ### ✨ Features
 
 - Font sizes set by this theme are now controllable by CSS variables. See [index.scss](./src/index.scss) for details.
