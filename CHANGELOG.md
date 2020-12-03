@@ -18,7 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tweaked how embedded blocks are rendered.
 - Tweaked how code blocks are rendered in preview mode.
 - Unified how buttons are rendered in Obsidian.
-- Updated [calendar](https://github.com/liamcain/obsidian-calendar-plugin) styling to support v1.3.0/v1.3.1
+- Updated [calendar](https://github.com/liamcain/obsidian-calendar-plugin) styling to support v1.3/v1.4
 
 ### 🐛 Bugfixes
 
