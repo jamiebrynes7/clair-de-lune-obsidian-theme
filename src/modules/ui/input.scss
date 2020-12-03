@@ -1,12 +1,14 @@
 @import "../../colors.scss";
 
-input {
+input,
+textarea {
   background-color: $gray-2 !important;
   border: 1px $gray-1 !important;
   color: $text-primary !important;
   font-family: var(--font-monospace) !important;
 }
 
-input:hover {
+input:hover,
+textarea:hover {
   background-color: $gray-3 !important;
 }

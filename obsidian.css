@@ -755,14 +755,16 @@ body:not(.is-grabbing) .nav-folder-title:hover {
   color: #c3e88d;
 }
 
-input {
+input,
+textarea {
   background-color: #191a2a !important;
   border: 1px #131421 !important;
   color: #c8d3f5 !important;
   font-family: var(--font-monospace) !important;
 }
 
-input:hover {
+input:hover,
+textarea:hover {
   background-color: #1e2030 !important;
 }
 
