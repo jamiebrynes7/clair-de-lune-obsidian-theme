@@ -12,34 +12,58 @@
     font-weight: 600;
     line-height: 1.25;
     color: $text-primary;
-    display: flex;
+    display: block;
     align-items: center;
     white-space: pre-wrap;
   }
 
   h1 {
     font-size: var(--font-h1-preview-size);
+
+    .heading-collapse-indicator {
+      padding-top: 20px;
+    }
   }
 
   h2 {
     font-size: var(--font-h2-preview-size);
+
+    .heading-collapse-indicator {
+      padding-top: 10px;
+    }
   }
 
   h3 {
     font-size: var(--font-h3-preview-size);
+
+    .heading-collapse-indicator {
+      padding-top: 7px;
+    }
   }
 
   h4 {
     font-size: var(--font-h4-preview-size);
+
+    .heading-collapse-indicator {
+      padding-top: 7px;
+    }
   }
 
   h5 {
     font-size: var(--font-h5-preview-size);
+
+    .heading-collapse-indicator {
+      padding-top: 5px;
+    }
   }
 
   h6 {
     font-size: var(--font-h6-preview-size);
     color: $text-gray;
+
+    .heading-collapse-indicator {
+      padding-top: 5px;
+    }
   }
 
   h1,
