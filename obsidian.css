@@ -540,6 +540,35 @@ path.relation {
   stroke: rgba(255, 199, 119, 0.75) !important;
 }
 
+.internal-query {
+  border: none;
+  background-color: #191a2a;
+  border-radius: 10px;
+  padding: 10px;
+}
+.internal-query .internal-query-header {
+  justify-content: inherit;
+  margin-bottom: 10px;
+}
+.internal-query .internal-query-header-title {
+  color: #7a88cf;
+}
+.internal-query .internal-query-header-title::before, .internal-query .internal-query-header-title::after {
+  content: "" !important;
+}
+.internal-query .search-result .search-result-collapse-indicator {
+  color: #7a88cf;
+}
+.internal-query .search-result .search-result-file-matches {
+  border-bottom: none;
+}
+.internal-query .search-result .search-result-file-match::before {
+  height: 0px;
+}
+.internal-query .search-result .search-result-file-match:hover {
+  background-color: #2f334d;
+}
+
 .markdown-preview-view table {
   border: 3px solid #444a73;
 }

@@ -1,0 +1,42 @@
+@import "../../colors.scss";
+
+.internal-query {
+  border: none;
+  background-color: $gray-2;
+  border-radius: 10px;
+  padding: 10px;
+
+  .internal-query-header {
+    justify-content: inherit;
+    margin-bottom: 10px;
+  }
+
+  .internal-query-header-title {
+    &::before,
+    &::after {
+      content: "" !important;
+    }
+
+    color: $indigo;
+  }
+
+  .search-result {
+    .search-result-collapse-indicator {
+      color: $indigo;
+    }
+
+    .search-result-file-matches {
+      border-bottom: none;
+    }
+
+    .search-result-file-match {
+      &::before {
+        height: 0px;
+      }
+
+      &:hover {
+        background-color: $gray-5;
+      }
+    }
+  }
+}
