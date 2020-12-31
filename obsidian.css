@@ -1030,6 +1030,7 @@ textarea:hover {
 .task-metadata {
   font-size: var(--font-todoist-metadata-size);
   color: #7a88cf;
+  margin-left: unset !important;
 }
 
 .task-metadata > * {
@@ -1037,7 +1038,7 @@ textarea:hover {
 }
 
 .task-date.task-overdue {
-  color: rgba(255, 152, 164, 0.75);
+  color: rgba(255, 152, 164, 0.75) !important;
 }
 
 .task-calendar-icon,
@@ -1082,6 +1083,30 @@ textarea:hover {
   background-color: unset !important;
   padding: unset !important;
   margin: unset !important;
+}
+
+.todoist-success {
+  border: 1px solid #c3e88d !important;
+  background-color: rgba(195, 232, 141, 0.05);
+  padding: 1em 1em !important;
+  margin: 1em 0px;
+}
+.todoist-success p {
+  margin: 0;
+  font-weight: 600;
+}
+
+.priority-container .priority-1 {
+  color: #ff98a4;
+}
+.priority-container .priority-2 {
+  color: #ffc777;
+}
+.priority-container .priority-3 {
+  color: #65bcff;
+}
+.priority-container .priority-4 {
+  color: #b4c2f0;
 }
 
 /*# sourceMappingURL=obsidian.css.map */

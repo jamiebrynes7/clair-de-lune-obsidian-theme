@@ -67,6 +67,7 @@
 .task-metadata {
   font-size: var(--font-todoist-metadata-size);
   color: $indigo;
+  margin-left: unset !important;
 }
 
 .task-metadata > * {
@@ -74,7 +75,7 @@
 }
 
 .task-date.task-overdue {
-  color: rgba($light-red, 0.75);
+  color: rgba($light-red, 0.75) !important;
 }
 
 .task-calendar-icon,
@@ -120,5 +121,36 @@
     background-color: unset !important;
     padding: unset !important;
     margin: unset !important;
+  }
+}
+
+.todoist-success {
+  border: 1px solid $green !important;
+  background-color: rgba($green, 0.05);
+
+  padding: 1em 1em !important;
+  margin: 1em 0px;
+
+  p {
+    margin: 0;
+    font-weight: 600;
+  }
+}
+
+.priority-container {
+  .priority-1 {
+    color: $light-red;
+  }
+
+  .priority-2 {
+    color: $yellow;
+  }
+
+  .priority-3 {
+    color: $sky-blue;
+  }
+
+  .priority-4 {
+    color: $gray-9;
   }
 }
