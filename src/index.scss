@@ -28,23 +28,20 @@
   --background-preview: #{$gray-4};
   --background-primary: #{$gray-4};
   --background-primary-alt: #{$gray-4};
-  --background-secondary: #{$gray-4};
-  --background-secondary-alt: #{$gray-4};
+  --background-secondary: #{$gray-3};
+  --background-secondary-alt: #{$gray-3};
 
   --background-tag: #{$gray-1};
   --background-quick: #{$gray-2};
 
   --background-modifier-cover: rgba(0, 0, 0, 0.8);
   --background-modifier-border: #{$gray-3};
-  --background-modifier-form-field: #{$gray-5};
-  --background-modifier-form-field-highlighted: #{$gray-6};
+  --background-modifier-form-field: #{$gray-2};
+  --background-modifier-form-field-highlighted: #{$gray-3};
 
   --interactive-accent: #{$gray-6};
   --interactive-accent-rgb: 134, 225, 252; // RGB version of $cyan.
   --interactive-accent-hover: #{$gray-7};
-
-  --menu-selection: #{$gray-6};
-  --menu-selection-text: #{$text-light};
 
   --scrollbar-bg: inherit;
   --scrollbar-thumb-bg: #{$gray-5};

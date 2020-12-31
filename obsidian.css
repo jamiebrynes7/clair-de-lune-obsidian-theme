@@ -24,19 +24,17 @@
   --background-preview: #222436;
   --background-primary: #222436;
   --background-primary-alt: #222436;
-  --background-secondary: #222436;
-  --background-secondary-alt: #222436;
+  --background-secondary: #1e2030;
+  --background-secondary-alt: #1e2030;
   --background-tag: #131421;
   --background-quick: #191a2a;
   --background-modifier-cover: rgba(0, 0, 0, 0.8);
   --background-modifier-border: #1e2030;
-  --background-modifier-form-field: #2f334d;
-  --background-modifier-form-field-highlighted: #444a73;
+  --background-modifier-form-field: #191a2a;
+  --background-modifier-form-field-highlighted: #1e2030;
   --interactive-accent: #444a73;
   --interactive-accent-rgb: 134, 225, 252;
   --interactive-accent-hover: #828bb8;
-  --menu-selection: #444a73;
-  --menu-selection-text: #e2e8fa;
   --scrollbar-bg: inherit;
   --scrollbar-thumb-bg: #2f334d;
   --scrollbar-active-thumb-bg: #444a73;
@@ -775,15 +773,16 @@ body:not(.is-grabbing) .nav-folder-title:hover {
 
 input,
 textarea {
-  background-color: #191a2a !important;
   border: 1px #131421 !important;
   color: #c8d3f5 !important;
   font-family: var(--font-monospace) !important;
 }
 
-input:hover,
+textarea {
+  background-color: var(--background-modifier-form-field);
+}
 textarea:hover {
-  background-color: #1e2030 !important;
+  background-color: var(--background-modifier-form-field-highlighted);
 }
 
 .menu-item:hover {

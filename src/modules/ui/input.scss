@@ -2,13 +2,15 @@
 
 input,
 textarea {
-  background-color: $gray-2 !important;
   border: 1px $gray-1 !important;
   color: $text-primary !important;
   font-family: var(--font-monospace) !important;
 }
 
-input:hover,
-textarea:hover {
-  background-color: $gray-3 !important;
+textarea {
+  background-color: var(--background-modifier-form-field);
+
+  &:hover {
+    background-color: var(--background-modifier-form-field-highlighted);
+  }
 }
