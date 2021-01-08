@@ -821,13 +821,12 @@ textarea {
   border: 1px #131421 !important;
   color: #c8d3f5 !important;
   font-family: var(--font-monospace) !important;
+  background-color: var(--background-modifier-form-field) !important;
 }
-
-textarea {
-  background-color: var(--background-modifier-form-field);
-}
+input:hover,
 textarea:hover {
-  background-color: var(--background-modifier-form-field-highlighted);
+  background-color: var(--background-modifier-form-field) !important;
+  border: 1px solid var(--interactive-accent) !important;
 }
 
 .menu-item:hover {

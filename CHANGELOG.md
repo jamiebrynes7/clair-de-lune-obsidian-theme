@@ -15,6 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### 🔁 Changes
 
 - Added some additional spacing between `li` elements in preview mode.
+- Tweak `input` and `textarea` element styling.
 
 ## [1.4.1] - 2021-01-08
 

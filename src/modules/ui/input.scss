@@ -5,12 +5,10 @@ textarea {
   border: 1px $gray-1 !important;
   color: $text-primary !important;
   font-family: var(--font-monospace) !important;
-}
-
-textarea {
-  background-color: var(--background-modifier-form-field);
+  background-color: var(--background-modifier-form-field) !important;
 
   &:hover {
-    background-color: var(--background-modifier-form-field-highlighted);
+    background-color: var(--background-modifier-form-field) !important;
+    border: 1px solid var(--interactive-accent) !important;
   }
 }
