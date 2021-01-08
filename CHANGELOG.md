@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### 🐛 Bugfixes
 
 - Active files are correctly highlighted in the file hierarchy.
+- Fixed search, query, and backlinks styling.
 
 ## [1.4.0] - 2020-12-31
 

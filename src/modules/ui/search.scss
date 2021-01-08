@@ -1,11 +1,10 @@
 @import "../../colors.scss";
 
-.pane-list-item-ending-flair {
+.tree-item-flair {
   background-color: $gray-6;
-  min-width: 2ch;
   text-align: center;
 }
 
-.search-result-file-title:hover {
+.tree-item-self.is-clickable:hover {
   background-color: $gray-5;
 }
