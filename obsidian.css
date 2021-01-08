@@ -401,6 +401,10 @@
 .markdown-preview-view ol ul {
   padding-inline-start: 20px;
 }
+.markdown-preview-view ul li,
+.markdown-preview-view ol li {
+  margin: 5px 0;
+}
 .markdown-preview-view ul {
   list-style: none;
 }

@@ -8,6 +8,13 @@
     padding-inline-start: 20px;
   }
 
+  ul,
+  ol {
+    li {
+      margin: 5px 0;
+    }
+  }
+
   ul {
     list-style: none;
 

@@ -12,6 +12,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added relationship lines to the tag pane when tags are nested.
 - Updated design for search result & backlinks snippets.
 
+### 🔁 Changes
+
+- Added some additional spacing between `li` elements in preview mode.
+
 ## [1.4.1] - 2021-01-08
 
 Tested against Obsidian v0.10.7, other versions should work, but your results may vary!
