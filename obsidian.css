@@ -926,6 +926,15 @@ textarea:hover {
   background-color: #2f334d;
 }
 
+.tree-item-children > .tree-item {
+  border-left: 1px solid #2f334d;
+  padding-left: 10px;
+}
+
+.tree-item-children {
+  margin-left: 10px;
+}
+
 .titlebar {
   background-color: #131421;
 }
