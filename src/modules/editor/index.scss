@@ -122,3 +122,16 @@
 .cm-s-obsidian .hmd-fold-html kbd {
   font-family: var(--font-monospace);
 }
+
+.cm-s-obsidian div.HyperMD-codeblock-begin-bg {
+  border-top: none;
+}
+
+.cm-s-obsidian div.HyperMD-codeblock-bg {
+  border-left: none;
+  border-right: none;
+}
+
+.cm-s-obsidian div.HyperMD-codeblock-end-bg {
+  border-bottom: none;
+}

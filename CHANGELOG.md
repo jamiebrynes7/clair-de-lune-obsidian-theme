@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Active files are correctly highlighted in the file hierarchy.
 - Fixed search, query, and backlinks styling.
+- Removed erroneous outline around code fence blocks in edit mode.
 
 ## [1.4.0] - 2020-12-31
 
