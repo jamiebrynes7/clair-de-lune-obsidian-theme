@@ -858,15 +858,6 @@ textarea:hover {
   color: #7a88cf;
 }
 
-.tree-item-flair {
-  background-color: #444a73;
-  text-align: center;
-}
-
-.tree-item-self.is-clickable:hover {
-  background-color: #2f334d;
-}
-
 .vertical-tab-header,
 .vertical-tab-nav-item {
   background-color: #1e2030;
@@ -922,25 +913,46 @@ textarea:hover {
   font-style: italic;
 }
 
-.pane-clickable-item:hover {
-  background-color: #2f334d;
-}
-
-.tree-item-children > .tree-item {
-  border-left: 1px solid #2f334d;
-  padding-left: 10px;
-}
-
-.tree-item-children {
-  margin-left: 10px;
-}
-
 .titlebar {
   background-color: #131421;
 }
 
 .titlebar-button {
   opacity: 1;
+}
+
+.tree-item-self .collapse-icon {
+  color: #7a88cf;
+  opacity: 0.5;
+}
+.tree-item-self.is-clickable:hover {
+  background-color: #2f334d;
+}
+
+.tree-item-children {
+  margin-left: 10px;
+}
+.tree-item-children > .tree-item {
+  border-left: 1px solid #2f334d;
+  padding-left: 10px;
+}
+
+.tree-item-flair {
+  background-color: #444a73;
+  text-align: center;
+}
+
+.search-result-file-match {
+  background-color: #191a2a;
+  border: 1px solid #131421;
+  padding: 15px;
+  margin-top: 3px;
+  border-radius: 5px;
+}
+.search-result-file-match:hover {
+  background-color: #191a2a;
+  border: 1px solid var(--interactive-accent);
+  cursor: pointer;
 }
 
 .tooltip {
