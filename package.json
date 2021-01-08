@@ -1,6 +1,6 @@
 {
   "name": "clair-de-lune-obsidian-theme",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "An Obsidian.md theme based on the Moonlight theme family.",
   "main": "index.js",
   "scripts": {
