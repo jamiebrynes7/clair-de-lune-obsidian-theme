@@ -755,7 +755,7 @@ body.plugin-sliding-panes .mod-root .workspace-leaf.mod-active .view-header {
   display: none;
 }
 
-.nav-file.is-active .nav-file-title {
+.nav-file-title.is-active {
   background-color: #444a73;
 }
 
