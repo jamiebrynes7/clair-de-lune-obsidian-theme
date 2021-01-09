@@ -104,6 +104,16 @@
     color: $text-gray !important;
     font-style: italic;
   }
+
+  .cm-hmd-frontmatter {
+    &.cm-def {
+      color: rgba($green, 0.8) !important;
+    }
+
+    &.cm-atom {
+      color: $orange !important;
+    }
+  }
 }
 
 .cm-s-obsidian .hmd-fold-html-stub,

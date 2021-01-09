@@ -1,0 +1,18 @@
+@import "../../colors.scss";
+
+.frontmatter-container {
+  background-color: $gray-2;
+  border: none;
+
+  .frontmatter-collapse-indicator {
+    color: $indigo;
+  }
+
+  .frontmatter-section {
+    align-items: center;
+  }
+
+  .frontmatter-section-label::after {
+    content: ":";
+  }
+}

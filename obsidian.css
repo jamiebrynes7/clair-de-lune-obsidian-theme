@@ -159,6 +159,12 @@
   color: #a9b8e8 !important;
   font-style: italic;
 }
+.cm-s-obsidian .cm-hmd-frontmatter.cm-def {
+  color: rgba(195, 232, 141, 0.8) !important;
+}
+.cm-s-obsidian .cm-hmd-frontmatter.cm-atom {
+  color: #ff966c !important;
+}
 
 .cm-s-obsidian .hmd-fold-html-stub,
 .cm-s-obsidian .hmd-fold-code-stub,
@@ -426,6 +432,20 @@
 
 span.math.math-block {
   font-size: var(--font-math-preview-size);
+}
+
+.frontmatter-container {
+  background-color: #191a2a;
+  border: none;
+}
+.frontmatter-container .frontmatter-collapse-indicator {
+  color: #7a88cf;
+}
+.frontmatter-container .frontmatter-section {
+  align-items: center;
+}
+.frontmatter-container .frontmatter-section-label::after {
+  content: ":";
 }
 
 .node rect,
