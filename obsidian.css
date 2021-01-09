@@ -987,14 +987,7 @@ textarea:hover {
 .workspace-split.mod-left-split .workspace-tabs,
 .workspace-split.mod-left-split .workspace-tabs .workspace-leaf,
 .workspace-split.mod-right-split .workspace-tabs .workspace-leaf,
-.workspace-leaf-resize-handle,
-.workspace-tab-header-container,
-.workspace-tab-header.is-before-active,
-.workspace-tab-header.is-before-active .workspace-tab-header-inner,
-.workspace-tab-header.is-active,
-.workspace-tab-header.is-active .workspace-tab-header-inner,
-.workspace-tab-header.is-after-active .workspace-tab-header-inner,
-.workspace-tab-header.is-after-active {
+.workspace-leaf-resize-handle {
   background-color: #1e2030;
 }
 
@@ -1003,13 +996,40 @@ textarea:hover {
   display: none;
 }
 
-.workspace-tab-header.is-active {
-  border-top: 1px solid #82aaff;
-  color: #82aaff;
-}
-
 .workspace-split .workspace-tabs:not(:first-child) {
   border-top: 1px solid #191a2a;
+}
+
+.workspace-tab-header-container {
+  height: 40px;
+  padding: 0;
+  margin-top: 4px;
+  margin-left: 4px;
+}
+
+.workspace-tab-container-inner {
+  border-radius: 10px;
+  background-color: #131421 !important;
+  border: 2px solid #131421;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  stroke-width: 0;
+}
+
+.workspace-tab-header {
+  background-color: transparent;
+  border-radius: 10px !important;
+}
+
+.workspace-tab-header-inner {
+  padding: 10px;
+}
+
+.workspace-tab-header-inner-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Support for https://github.com/liamcain/obsidian-calendar-plugin */

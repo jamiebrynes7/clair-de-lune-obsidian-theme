@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Added relationship lines to the tag pane when tags are nested.
 - Updated design for search result & backlinks snippets.
+- Updated design for window selector tabs.
 
 ### 🔁 Changes
 
