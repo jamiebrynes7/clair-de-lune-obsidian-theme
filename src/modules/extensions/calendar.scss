@@ -3,41 +3,12 @@
 @import "../../colors.scss";
 
 #calendar-container {
-  .title {
-    .year {
-      color: $indigo;
-    }
-  }
+  --color-text-today: #{$green};
+  --color-text-weeknum: #{rgba($indigo, 0.8)};
+  --color-arrow: #{$indigo};
+  --color-dot: #{rgba($green, 0.5)};
 
-  div.arrow svg {
+  .year {
     color: $indigo;
-  }
-
-  tr {
-    td:not(:empty) {
-      border-radius: 5px;
-
-      &.today {
-        color: $green;
-      }
-
-      &.active {
-        background-color: $gray-6 !important;
-      }
-
-      &:hover {
-        background-color: $gray-5 !important;
-      }
-
-      .dot-container {
-        .dot {
-          fill: rgba($green, 0.5) !important;
-        }
-      }
-    }
-
-    td:empty {
-      background-color: inherit;
-    }
   }
 }

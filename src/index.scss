@@ -39,8 +39,9 @@
   --background-modifier-form-field: #{$gray-2};
   --background-modifier-form-field-highlighted: #{$gray-3};
 
+  --interactive-hover: #{$gray-5};
   --interactive-accent: #{$gray-6};
-  --interactive-accent-rgb: 134, 225, 252; // RGB version of $cyan.
+  --interactive-accent-rgb: 68, 74, 115; // RGB version of $cyan.
   --interactive-accent-hover: #{$gray-7};
 
   --scrollbar-bg: inherit;

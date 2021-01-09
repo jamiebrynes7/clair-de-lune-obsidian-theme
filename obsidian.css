@@ -32,8 +32,9 @@
   --background-modifier-border: #1e2030;
   --background-modifier-form-field: #191a2a;
   --background-modifier-form-field-highlighted: #1e2030;
+  --interactive-hover: #2f334d;
   --interactive-accent: #444a73;
-  --interactive-accent-rgb: 134, 225, 252;
+  --interactive-accent-rgb: 68, 74, 115;
   --interactive-accent-hover: #828bb8;
   --scrollbar-bg: inherit;
   --scrollbar-thumb-bg: #2f334d;
@@ -1012,29 +1013,14 @@ textarea:hover {
 }
 
 /* Support for https://github.com/liamcain/obsidian-calendar-plugin */
-#calendar-container .title .year {
+#calendar-container {
+  --color-text-today: #c3e88d;
+  --color-text-weeknum: rgba(122, 136, 207, 0.8);
+  --color-arrow: #7a88cf;
+  --color-dot: rgba(195, 232, 141, 0.5);
+}
+#calendar-container .year {
   color: #7a88cf;
-}
-#calendar-container div.arrow svg {
-  color: #7a88cf;
-}
-#calendar-container tr td:not(:empty) {
-  border-radius: 5px;
-}
-#calendar-container tr td:not(:empty).today {
-  color: #c3e88d;
-}
-#calendar-container tr td:not(:empty).active {
-  background-color: #444a73 !important;
-}
-#calendar-container tr td:not(:empty):hover {
-  background-color: #2f334d !important;
-}
-#calendar-container tr td:not(:empty) .dot-container .dot {
-  fill: rgba(195, 232, 141, 0.5) !important;
-}
-#calendar-container tr td:empty {
-  background-color: inherit;
 }
 
 .todoist-query-title {
