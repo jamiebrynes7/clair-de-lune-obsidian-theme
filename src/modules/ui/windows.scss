@@ -64,3 +64,12 @@
   justify-content: center;
   align-items: center;
 }
+
+.workspace-tab-header.is-before-active,
+.workspace-tab-header.is-after-active {
+  background-color: transparent;
+
+  .workspace-tab-header-inner {
+    background-color: transparent;
+  }
+}
