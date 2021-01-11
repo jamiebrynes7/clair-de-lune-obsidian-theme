@@ -126,9 +126,17 @@
   color: #c8d3f5 !important;
 }
 .cm-s-obsidian span.cm-hmd-codeblock span.cm-variable,
+.cm-s-obsidian span.cm-hmd-codeblock span.cm-variable-2,
+.cm-s-obsidian span.cm-hmd-codeblock span.cm-variable-3,
 .cm-s-obsidian span.cm-hmd-indented-code span.cm-variable,
+.cm-s-obsidian span.cm-hmd-indented-code span.cm-variable-2,
+.cm-s-obsidian span.cm-hmd-indented-code span.cm-variable-3,
 .cm-s-obsidian span.cm-math span.cm-variable,
-.cm-s-obsidian pre.HyperMD-codeblock span.cm-variable {
+.cm-s-obsidian span.cm-math span.cm-variable-2,
+.cm-s-obsidian span.cm-math span.cm-variable-3,
+.cm-s-obsidian pre.HyperMD-codeblock span.cm-variable,
+.cm-s-obsidian pre.HyperMD-codeblock span.cm-variable-2,
+.cm-s-obsidian pre.HyperMD-codeblock span.cm-variable-3 {
   color: #65bcff !important;
 }
 .cm-s-obsidian span.cm-hmd-codeblock span.cm-operator,
@@ -281,6 +289,9 @@
 }
 .markdown-preview-view .token.comment {
   color: #7a88cf;
+}
+.markdown-preview-view .token.macro {
+  color: #82aaff;
 }
 
 .markdown-preview-view .markdown-embed {
