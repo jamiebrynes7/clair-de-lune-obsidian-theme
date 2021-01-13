@@ -19,6 +19,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added some additional spacing between `li` elements in preview mode.
 - Tweak `input` and `textarea` element styling.
 - Updated calendar plugin styling.
+- Increased the indentation of nested lists to make them more prominent.
 
 ### 🐛 Bugfixes
 
