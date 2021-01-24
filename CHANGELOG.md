@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.5.0] - 2021-01-24
+
 ### ✨ Features
 
 - Added relationship lines to the tag pane when tags are nested.
