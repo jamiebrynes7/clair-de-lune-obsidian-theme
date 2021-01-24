@@ -1,14 +1,18 @@
 @import "../../colors.scss";
 
 input,
+input[type="text"],
+input[type="search"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
 textarea {
-  border: 1px $gray-1 !important;
-  color: $text-primary !important;
-  font-family: var(--font-monospace) !important;
-  background-color: var(--background-modifier-form-field) !important;
+  border: 1px $gray-1;
+  color: $text-primary;
+  font-family: var(--font-monospace);
 
   &:hover {
-    background-color: var(--background-modifier-form-field) !important;
-    border: 1px solid var(--interactive-accent) !important;
+    background: var(--background-modifier-form-field);
+    border: 1px solid var(--interactive-accent);
   }
 }

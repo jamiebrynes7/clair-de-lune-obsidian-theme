@@ -854,16 +854,25 @@ body:not(.is-grabbing) .nav-folder-title:hover {
 }
 
 input,
+input[type=text],
+input[type=search],
+input[type=email],
+input[type=password],
+input[type=number],
 textarea {
-  border: 1px #131421 !important;
-  color: #c8d3f5 !important;
-  font-family: var(--font-monospace) !important;
-  background-color: var(--background-modifier-form-field) !important;
+  border: 1px #131421;
+  color: #c8d3f5;
+  font-family: var(--font-monospace);
 }
 input:hover,
+input[type=text]:hover,
+input[type=search]:hover,
+input[type=email]:hover,
+input[type=password]:hover,
+input[type=number]:hover,
 textarea:hover {
-  background-color: var(--background-modifier-form-field) !important;
-  border: 1px solid var(--interactive-accent) !important;
+  background: var(--background-modifier-form-field);
+  border: 1px solid var(--interactive-accent);
 }
 
 .menu-item:hover {
