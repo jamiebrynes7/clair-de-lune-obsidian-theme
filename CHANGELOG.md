@@ -20,6 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Tweak `input` and `textarea` element styling.
 - Updated calendar plugin styling.
 - Increased the indentation of nested lists to make them more prominent.
+- Softened the color of `hr` elements and the borders under `h1`, and `h2` elements.
 
 ### 🐛 Bugfixes
 

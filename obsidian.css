@@ -365,7 +365,7 @@
 .markdown-preview-view h1,
 .markdown-preview-view h2 {
   padding-bottom: 0.3em;
-  border-bottom: 1px solid #444a73;
+  border-bottom: 1px solid rgba(122, 136, 207, 0.25);
 }
 .markdown-preview-view .heading-collapse-indicator {
   color: #7a88cf;
@@ -718,7 +718,7 @@ path.relation {
   color: #c0cdf3;
 }
 .markdown-preview-view hr {
-  border-color: #444a73;
+  border-color: rgba(122, 136, 207, 0.3);
 }
 .markdown-preview-view del {
   color: #7a88cf;
