@@ -8,6 +8,12 @@
     padding-inline-start: 30px;
   }
 
+  ul:not(.contains-task-list) ul:not(.contains-task-list) {
+    border-left: 1px solid rgba($indigo, 0.25);
+    margin-left: -12px;
+    padding-inline-start: 42px;
+  }
+
   ul,
   ol {
     li {

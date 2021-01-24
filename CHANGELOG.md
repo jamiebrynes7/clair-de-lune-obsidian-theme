@@ -13,6 +13,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated design for search result & backlinks snippets.
 - Updated design for window selector tabs.
 - Added support for built-in frontmatter.
+- Added relationship lines to nested bullet points in preview mode.
 
 ### 🔁 Changes
 

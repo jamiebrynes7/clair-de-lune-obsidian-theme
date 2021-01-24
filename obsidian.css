@@ -419,6 +419,11 @@
 .markdown-preview-view ol ul {
   padding-inline-start: 30px;
 }
+.markdown-preview-view ul:not(.contains-task-list) ul:not(.contains-task-list) {
+  border-left: 1px solid rgba(122, 136, 207, 0.25);
+  margin-left: -12px;
+  padding-inline-start: 42px;
+}
 .markdown-preview-view ul li,
 .markdown-preview-view ol li {
   margin: 5px 0;
