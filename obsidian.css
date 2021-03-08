@@ -60,6 +60,9 @@
   font-size: var(--font-editor-size);
   line-height: 1.5em;
 }
+.cm-hmd-internal-link {
+  cursor: pointer;
+}
 .cm-s-obsidian .CodeMirror-linenumber {
   color: rgba(122, 136, 207, 0.5);
   font-size: var(--font-editor-linenumbers-size);
