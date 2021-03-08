@@ -60,6 +60,7 @@
   font-size: var(--font-editor-size);
   line-height: 1.5em;
 }
+.cm-url,
 .cm-hmd-internal-link {
   cursor: pointer;
 }
