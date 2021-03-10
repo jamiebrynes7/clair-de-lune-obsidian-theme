@@ -733,12 +733,6 @@ path.relation {
   .markdown-preview-view h1, .markdown-preview-view h2, .markdown-preview-view h3, .markdown-preview-view h4, .markdown-preview-view h5, .markdown-preview-view h6 {
     color: #131421 !important;
   }
-  .markdown-preview-view a.internal-link {
-    color: #2f334d !important;
-  }
-  .markdown-preview-view a.external-link {
-    text-decoration: underline !important;
-  }
 }
 .modal button:not(.mod-cta):not(.mod-warning),
 .modal.mod-settings button:not(.mod-cta):not(.mod-warning),
