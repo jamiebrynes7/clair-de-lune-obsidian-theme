@@ -29,6 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Updated calendar plugin styling.
 - Increased the indentation of nested lists to make them more prominent.
 - Softened the color of `hr` elements and the borders under `h1`, and `h2` elements.
+- Changed the style of headers in PDF export mode
 
 ### 🐛 Bugfixes
 
