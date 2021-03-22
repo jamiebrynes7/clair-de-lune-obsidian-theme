@@ -163,8 +163,7 @@
 .cm-s-obsidian pre.HyperMD-codeblock span.cm-comment {
   color: #7a88cf !important;
 }
-.cm-s-obsidian .cm-quote {
-  color: #a9b8e8 !important;
+.cm-s-obsidian span.cm-quote {
   font-style: italic;
 }
 .cm-s-obsidian .cm-hmd-frontmatter.cm-def {
