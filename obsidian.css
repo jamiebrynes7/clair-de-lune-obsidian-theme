@@ -214,6 +214,7 @@
 
 .markdown-preview-view ul > li.task-list-item {
   margin-left: 0em;
+  text-indent: unset;
 }
 .markdown-preview-view ul > li.task-list-item input[type=checkbox] {
   appearance: none;

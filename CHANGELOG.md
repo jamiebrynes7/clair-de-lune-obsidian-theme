@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### 🐛 Bugfixes
+
+- Tasks are now correctly indented.
+
 ## [1.5.0] - 2021-01-24
 
 ### ✨ Features
