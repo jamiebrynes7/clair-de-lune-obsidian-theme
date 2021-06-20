@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### 🔁 Changes
  
 - Changed the style of headers in PDF export mode
+- All font sizes use `em` units. This allows users to configure the font size more easily.
 
 ### 🐛 Bugfixes
 
