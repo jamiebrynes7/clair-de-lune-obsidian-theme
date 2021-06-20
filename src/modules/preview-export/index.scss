@@ -1,0 +1,14 @@
+@import "../../colors.scss";
+
+@media print {
+  .markdown-preview-view {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $gray-1 !important;
+    }
+  }
+}

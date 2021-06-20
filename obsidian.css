@@ -729,6 +729,16 @@ path.relation {
   color: #7a88cf;
 }
 
+@media print {
+  .markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-preview-view h4,
+.markdown-preview-view h5,
+.markdown-preview-view h6 {
+    color: #131421 !important;
+  }
+}
 .modal button:not(.mod-cta):not(.mod-warning),
 .modal.mod-settings button:not(.mod-cta):not(.mod-warning),
 button:not(.mod-cta):not(.mod-warning) {
