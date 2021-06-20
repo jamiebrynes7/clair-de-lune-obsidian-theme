@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Tasks are now correctly indented.
 - Links in quote elements are hightlighted correctly in edit mode.
+- Aligned collapse arrows next to header elements.
 
 ## [1.5.0] - 2021-01-24
 
