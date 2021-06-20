@@ -2,7 +2,7 @@
 :root {
   --default-font: "Inter", sans-serif;
   --font-monospace: "Jetbrains Mono", monospace;
-  --font-editor-size: 11pt;
+  --font-editor-size: 1em;
   --font-editor-linenumbers-size: medium;
   --font-h1-preview-size: 2em;
   --font-h2-preview-size: 1.5em;
@@ -10,10 +10,10 @@
   --font-h4-preview-size: 1em;
   --font-h5-preview-size: 0.875em;
   --font-h6-preview-size: 0.85em;
-  --font-math-preview-size: 18px;
-  --font-tag-preview-size: 9pt;
+  --font-math-preview-size: 1.126em;
+  --font-tag-preview-size: 0.9em;
   --font-hover-preview-size: 0.9em;
-  --font-prompts-size: 14px;
+  --font-prompts-size: 0.875em;
   --font-todoist-title-size: 1em;
   --font-todoist-metadata-size: small;
 }
