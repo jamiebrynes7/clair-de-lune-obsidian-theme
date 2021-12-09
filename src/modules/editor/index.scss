@@ -53,6 +53,10 @@
     color: $light-red;
   }
 
+  .cm-comment {
+    color: $indigo !important;
+  }
+
   span.cm-inline-code {
     color: $cyan;
     font-size: inherit;
