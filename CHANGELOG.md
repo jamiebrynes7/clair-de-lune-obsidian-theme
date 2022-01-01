@@ -11,6 +11,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Added styling for Markdown comment blocks.
 
+### 🐛 Bugfixes
+
+- Fixed `h3` size styling.
+- Fixed alignment of suggestion flairs.
+
 ## [1.5.1] - 2021-06-20
 
 ### 🔁 Changes
