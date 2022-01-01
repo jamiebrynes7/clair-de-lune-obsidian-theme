@@ -106,6 +106,11 @@
     font-style: italic;
   }
 
+  span.cm-comment {
+    color: $gray-6 !important;
+    font-style: italic;
+  }
+
   .cm-hmd-frontmatter {
     &.cm-def {
       color: rgba($green, 0.8) !important;

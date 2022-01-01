@@ -166,6 +166,10 @@
 .cm-s-obsidian span.cm-quote {
   font-style: italic;
 }
+.cm-s-obsidian span.cm-comment {
+  color: #444a73 !important;
+  font-style: italic;
+}
 .cm-s-obsidian .cm-hmd-frontmatter.cm-def {
   color: rgba(195, 232, 141, 0.8) !important;
 }
