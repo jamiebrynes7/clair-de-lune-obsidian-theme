@@ -23,15 +23,6 @@
 
   ul {
     list-style: none;
-
-    li:not(.task-list-item)::before {
-      content: "\2022";
-      color: $indigo;
-      font-weight: bold;
-      display: inline-block;
-      width: 1em;
-      margin-left: -1em;
-    }
   }
 
   .list-collapse-indicator {
