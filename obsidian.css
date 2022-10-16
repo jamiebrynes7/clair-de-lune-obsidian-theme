@@ -42,7 +42,7 @@
   --table-line: #828bb8;
   --text-accent: #50c4fa;
   --text-accent-hover: rgba(80, 196, 250, 0.8);
-  --text-faint: $text-dark;
+  --text-faint: #444a73;
   --text-highlight-bg: rgba(252, 167, 234, 0.2);
   --text-muted: #a9b8e8;
   --text-normal: #c8d3f5;
