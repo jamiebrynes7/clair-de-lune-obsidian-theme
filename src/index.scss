@@ -52,7 +52,7 @@
 
   --text-accent: #{$aqua};
   --text-accent-hover: #{rgba($aqua, 0.8)};
-  --text-faint: $text-dark;
+  --text-faint: #{$indigo};
   --text-highlight-bg: #{rgba($pink, 0.2)};
   --text-muted: #{$text-gray};
   --text-normal: #{$text-primary};
