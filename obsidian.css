@@ -417,14 +417,6 @@
 .markdown-preview-view ul {
   list-style: none;
 }
-.markdown-preview-view ul li:not(.task-list-item)::before {
-  content: "•";
-  color: #7a88cf;
-  font-weight: bold;
-  display: inline-block;
-  width: 1em;
-  margin-left: -1em;
-}
 .markdown-preview-view .list-collapse-indicator {
   color: #7a88cf;
 }
