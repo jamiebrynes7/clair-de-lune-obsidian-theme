@@ -98,6 +98,10 @@
 .cm-s-obsidian .cm-strong {
   color: #ff98a4;
 }
+.cm-s-obsidian hr {
+  border: none;
+  border-top: 2px solid rgba(122, 136, 207, 0.3);
+}
 .cm-s-obsidian span.cm-inline-code {
   color: #86e1fc;
   font-size: inherit;

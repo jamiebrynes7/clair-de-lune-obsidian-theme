@@ -53,6 +53,11 @@
     color: $light-red;
   }
 
+  hr {
+    border: none;
+    border-top: 2px solid rgba($indigo, 0.3);
+  }
+
   span.cm-inline-code {
     color: $cyan;
     font-size: inherit;
